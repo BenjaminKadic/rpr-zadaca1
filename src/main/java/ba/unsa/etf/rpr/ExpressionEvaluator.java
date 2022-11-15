@@ -3,7 +3,7 @@ package ba.unsa.etf.rpr;
 import java.util.InputMismatchException;
 import java.util.Stack;
 
-/*
+/**
  * Author: @Benjamin Kadic
  * Class Evaluate
  * Class that Evaluates (fully parenthesized) arithmetic expressions using Dijkstra's two-stack algorithm
@@ -26,7 +26,7 @@ public class ExpressionEvaluator {
     private static Stack<Double> values;
     private static final RuntimeException e = new RuntimeException("Pogresan format unosa");
 
-    /*
+    /**
      * Method stringToStringArray
      * Method that returns an array of strings based on method parameter string
      * it makes difference between each word in parameter
@@ -35,7 +35,7 @@ public class ExpressionEvaluator {
     private static String[] stringToStringArray(String string){
         return string.split(" ");
     }
-    /*
+    /**
      * Method evaluates
      * Method which evaluates arithmetic expression from parameter input using
      * Dijkstra's two-stack algorithm
@@ -76,7 +76,7 @@ public class ExpressionEvaluator {
 
     }
 
-    /*
+    /**
      * Method isOperand
      * Method that checks if given String is equal to one of predetermined operators
      * Metoda koja provjerava da li je String jednak jednom od operatora
@@ -85,7 +85,7 @@ public class ExpressionEvaluator {
         return PLUS.equals(c) || MINUS.equals(c) || DIV.equals(c) || MULT.equals(c) ||  SQRT.equals(c);
     }
 
-    /*
+    /**
      * Method apply
      * Method that applies operation given by parameter operator on first and second value
      * Metoda koja vrši operaciju određenu parametrom operator nad dvije vrijednosti iz parametara
