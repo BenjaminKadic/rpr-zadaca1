@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static ba.unsa.etf.rpr.ExpressionEvaluator.evaluate;
 import static org.junit.jupiter.api.Assertions.*;
-import ba.unsa.etf.rpr.ExpressionEvaluator;
 
 import java.util.InputMismatchException;
 
@@ -12,7 +11,7 @@ class ExpressionEvaluatorTest {
 
     @Test
     void evaluateException() {
-        assertThrows(RuntimeException.class, ()->{evaluate("( 2 + ( ) 3");});
+        assertThrows(RuntimeException.class, ()-> evaluate("( 2 + ( ) 3"));
     }
 
     @Test
@@ -46,15 +45,15 @@ class ExpressionEvaluatorTest {
     }
     @Test
     void evaluateInputMismatchException() {
-        assertThrows(InputMismatchException.class, () -> { evaluate("( ( 1 + 3 )"); });
+        assertThrows(InputMismatchException.class, () -> evaluate("( ( 1 + 3 )"));
     }
     @Test
     void evaluateWrongNumberInput(){
-        assertThrows(RuntimeException.class, () -> { evaluate("( 1 + z )"); });
+        assertThrows(RuntimeException.class, () -> evaluate("( 1 + z )"));
     }
     @Test
     void evaluateEmptyValStack(){
-        assertThrows(RuntimeException.class, () -> { evaluate("( 1 + ( ) + 2"); });
+        assertThrows(RuntimeException.class, () -> evaluate("( 1 + ( ) + 2"));
     }
 
 

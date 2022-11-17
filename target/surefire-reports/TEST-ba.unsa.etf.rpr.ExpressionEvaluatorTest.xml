@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.092" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\Thinkpad\IdeaProjects\rpr-zadaca1\target\test-classes;C:\Users\Thinkpad\IdeaProjects\rpr-zadaca1\target\classes;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Thinkpad\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sarajevo"/>
+    <property name="user.country.format" value="BA"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Thinkpad\AppData\Local\Temp\surefire16682575253876019701\surefirebooter3025297675334720954.jar C:\Users\Thinkpad\AppData\Local\Temp\surefire16682575253876019701 2022-11-17T18-47-48_678-jvmRun1 surefire2097801096046180899tmp surefire_09113596750506075110tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Thinkpad\IdeaProjects\rpr-zadaca1\target\test-classes;C:\Users\Thinkpad\IdeaProjects\rpr-zadaca1\target\classes;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Thinkpad\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Thinkpad\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Thinkpad"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Thinkpad\IdeaProjects\rpr-zadaca1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Thinkpad\AppData\Local\Temp\surefire16682575253876019701\surefirebooter3025297675334720954.jar"/>
+    <property name="user.script" value=""/>
+    <property name="user.script.format" value="Latn"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="Thinkpad"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Thinkpad\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Thinkpad\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\Thinkpad\IdeaProjects\rpr-zadaca1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="bs"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CodeBlocks\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\Thinkpad\Desktop\Benjo Faks\2. godina\3. semestar\Razvoj programskih rjesenja\apache-maven-3.8.6\bin;C:\Users\Thinkpad\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\;C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\Scripts\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin;;C:\Program Files\php-8.1.11-Win32-vs16-x64;C:\Program Files\Java\jdk-19\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="evaluateException" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.044"/>
+  <testcase name="evaluateMinus" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.01"/>
+  <testcase name="evaluateMultiply" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0"/>
+  <testcase name="evaluateEmptyValStack" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.001"/>
+  <testcase name="evaluateDivide" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.002"/>
+  <testcase name="evaluatePlus" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.002"/>
+  <testcase name="evaluateSqrt" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.002"/>
+  <testcase name="evaluateMultipleOperators2" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.001"/>
+  <testcase name="evaluateInputMismatchException" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.001"/>
+  <testcase name="evaluateMultipleOperators" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.001"/>
+  <testcase name="evaluateWrongNumberInput" classname="ba.unsa.etf.rpr.ExpressionEvaluatorTest" time="0.001"/>
+</testsuite>

@@ -44,18 +44,19 @@ public class ExpressionEvaluator {
     public static Double evaluate(String input) throws RuntimeException {
         ops = new Stack<>();
         values = new Stack<>();
-        int number_of_parenthesis=0;
+        int number_of_Lparenthesis=0, number_of_Rparenthesis=0, number_of_operators=0;
         String[] in = stringToStringArray(input);
         for(String c : in) {
-            if (LEFT_PARENTHESIS.equals(c)) number_of_parenthesis++;
+            if (LEFT_PARENTHESIS.equals(c)) number_of_Lparenthesis++;
             else if (isOperator(c)) {
+                number_of_operators++;
                 ops.push(c);
             } else if (RIGHT_PARENTHESIS.equals(c)) {
-                if(values.isEmpty()) throw e;
+                if(values.isEmpty() || ops.isEmpty()) throw e;
                 String op = ops.pop();
                 Double two = values.pop();
                 Double result;
-                number_of_parenthesis--;
+                number_of_Rparenthesis++;
                 if (SQRT.equals(op)) {
                     result = Math.sqrt(two);
                 } else {
@@ -71,7 +72,8 @@ public class ExpressionEvaluator {
                 throw e;
             }
         }
-        if(number_of_parenthesis!=0) throw new InputMismatchException( "Pogresan broj zagrada");
+        if(number_of_Lparenthesis!=number_of_Rparenthesis || number_of_Rparenthesis!=number_of_operators)
+            throw new InputMismatchException("Pogresan broj zagrada");
         return values.pop();
 
     }
